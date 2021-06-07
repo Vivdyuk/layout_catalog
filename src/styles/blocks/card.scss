@@ -18,11 +18,11 @@
     transition-duration: $smoooooooth;
     cursor: pointer;
     border: 3px solid $color-white;
+    border-radius: $border-raduis;
 
     &:hover {
-      transform: scale(1.25);
+      transform: scale(1.25) translateY(-13px);
       border: 3px solid #f3f3f3;
-
     }
   }
 
