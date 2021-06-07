@@ -15,11 +15,12 @@
     flex-shrink: 0;
     margin-bottom: 3.9 * $multiplier-8;
     align-self: center;
-    transition-duration: 400ms;
+    transition-duration: $smoooooooth;
     cursor: pointer;
+    border: 3px solid $color-white;
 
     &:hover {
-      transform: scale(1.2);
+      transform: scale(1.25);
       border: 3px solid #f3f3f3;
 
     }
